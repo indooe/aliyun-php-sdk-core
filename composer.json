@@ -1,0 +1,22 @@
+{
+    "name": "indooe/aliyun-php-sdk-core",
+    "description": "Aliyun Core SDK for PHP",
+    "homepage": "https://github.com/indooe/aliyun-php-sdk-core/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "indooe",
+            "homepage": "http://www.indooe.com"
+        }
+    ],
+    "require": {
+        "php":">=5.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "aliyun-php-sdk-core\\": "src/AliyunCore"
+        }
+    }
+}
